@@ -1,6 +1,10 @@
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "@shared/schema";
+import dotenv from "dotenv";
+dotenv.config();
+
+
 
 // Tạo kết nối đến cơ sở dữ liệu PostgreSQL
 const connectionString = process.env.DATABASE_URL!;
