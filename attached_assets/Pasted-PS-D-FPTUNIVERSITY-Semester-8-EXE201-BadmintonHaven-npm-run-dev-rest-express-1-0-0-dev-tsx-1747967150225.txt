@@ -1,0 +1,78 @@
+PS D:\FPTUNIVERSITY\Semester_8\EXE201\BadmintonHaven> npm run dev
+
+> rest-express@1.0.0 dev
+> tsx server/index.ts   
+
+Đang kết nối đến cơ sở dữ liệu PostgreSQL...
+Đã kết nối thành công đến PostgreSQL: 2025-05-23 09:21:01.81844+07
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',      
+  code: '42P07',
+  message: 'relation "users" already exists, skipping',
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42P07',
+  message: 'relation "courts" already exists, skipping',
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42P07',
+  message: 'relation "bookings" already exists, skipping',
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42P07',
+  message: 'relation "time_slots" already exists, skipping',       
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42P07',
+  message: 'relation "player_requests" already exists, skipping',  
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42P07',
+  message: 'relation "chats" already exists, skipping',
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42P07',
+  message: 'relation "reviews" already exists, skipping',
+  file: 'parse_utilcmd.c',
+  line: '210',
+  routine: 'transformCreateStmt'
+}
+Đã khởi tạo cấu trúc cơ sở dữ liệu thành công
+Đã có dữ liệu người dùng, bỏ qua bước tạo dữ liệu mẫu.
+9:21:01 AM [express] Đã kết nối thành công đến cơ sở dữ liệu PostgreSQL
+9:21:02 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please 
+run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
